@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movie World</title>
+        <style>
+            body{
+                background-color: #4F5C61;
+            }
+            .watchList{
+            text-decoration: none;
+            color: #F7BC45;
+            font-family: 'Economica';
+            font-size: 20px;
+            }
+
+            
+        </style>
+    </head>
+
+
+    <body>
+        <div class = "header">
+            <link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+        </div>
+
+        
+        <div class= "myAccount">
+            <td><a href = <%= "/myAccount"%>> My Account</a></td>
+            <td><a href = <%= "/search"%>> Search</a></td>
+        </div>
+
+        <div class = "watchList">
+            <table>
+                <tr>
+                    <td>Your Movies</td>
+                </tr>
+                <tr>
+                    <% for (let movie of movies) { %>
+                        <td><a href=<%= "/movie/" + movie.imdbID%>> <img src="<%= movie.Poster%>"> </a></td>
+                    <% } %>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

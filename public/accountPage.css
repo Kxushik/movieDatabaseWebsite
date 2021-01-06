@@ -1,0 +1,130 @@
+body{
+    background-color: #4F5C61;
+}
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background: #555;
+    margin: 0;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.searchBar{
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 32px;
+}
+.searchBar input{
+    width: 50%;
+    height: 28px;
+    padding: 4px 10px;
+    border: 1px solid #666;
+    background: white;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    font-size: 16px;
+}
+
+.userProfile h1{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.watchList{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.userFavourites{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.userReviews{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.myAccount {
+    text-decoration: none;
+    font-family: 'Economica';
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.userInfo{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 5.9%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.userProfile img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+table,
+td,
+tr,
+th{
+    border: 1px dotted black;
+    padding: 5px;
+    border-collapse: collapse;
+}

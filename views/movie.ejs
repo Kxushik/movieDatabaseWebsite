@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movie World</title>
+        <style>
+            body{
+                background-color: #4F5C61;
+            }
+            .movieInfo{
+            color: black;
+            font-family: 'Economica';
+            font-size: 20px;
+
+            }
+            .movieProfile{
+            color:#F7BC45
+            }
+        </style>
+    </head>
+
+
+    <body> 
+        <div class = "movieProfile">
+            <img src="<%= movie.Poster%>">
+            <h1><%= movie.Title%></h1>
+        </div>
+
+        <div class = "movieInfo">
+            <table>
+                <tr>
+                    <td>Plot : <%= movie.Plot%></td>
+                </tr>
+                <tr>
+                    <td>Released : <%= movie.Released%></td>
+                </tr>
+                <tr>
+                    <td>Rating : <%= movie.Rated%></td>
+                </tr>
+                <tr>
+                    <td>RunTime : <%= movie.Runtime%></td>
+                </tr>
+                <tr>
+                    <td>Genre : <%= movie.Genre%></td>
+                </tr>
+                <tr>
+                    <td>Director : <%= movie.Director%></td>
+                </tr>
+                <tr>
+                    <td>Writer : <%= movie.Writer%></td>
+                </tr>
+                <tr>
+                    <td>Actors : <%= movie.Actors%></td>
+                </tr>
+                <tr>
+                    <td>Language : <%= movie.Language%></td>
+                </tr>
+                <tr>
+                    <td>Country : <%= movie.Country%></td>
+                </tr>
+                <tr>
+                    <td>Awards : <%= movie.Awards%></td>
+                </tr>
+            </table>
+        </div>
+        <div class = "userReviews">
+            <table>
+                <tr>
+                    <td>Reviews</td>
+                </tr>
+                <tr>
+                    <td>MetaScore:  <%= movie.Metascore%></td>
+                </tr>
+                <tr>
+                    <td>IMDB Rating:  <%= movie.imdbRating%></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

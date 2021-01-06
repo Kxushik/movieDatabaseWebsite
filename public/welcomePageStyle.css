@@ -1,0 +1,61 @@
+
+.header h1{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.header h2{
+    color: white;
+    font-family: 'Economica';
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    margin: 0;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+.header img {
+    float: left;
+    width: 350px;
+    height: 350px;
+    background: #555;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+  }
+body{
+    background-color: #4F5C61;
+}
+
+.enterSite:link{
+    color:white;
+}
+.enterSite {
+    text-decoration: none;
+    font-family: 'Economica';
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+

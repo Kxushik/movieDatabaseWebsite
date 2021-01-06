@@ -1,0 +1,39 @@
+body{
+    background-color: #4F5C61;
+}
+.header img {
+    float: left;
+    width: 350px;
+    height: 350px;
+    background: #555;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+.logIn{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.signUp{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

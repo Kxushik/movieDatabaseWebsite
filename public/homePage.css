@@ -1,0 +1,114 @@
+body{
+    background-color: #4F5C61;
+}
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background: #555;
+    margin: 0;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.searchBar{
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 32px;
+}
+.searchBar input{
+    width: 50%;
+    height: 28px;
+    padding: 4px 10px;
+    border: 1px solid #666;
+    background: white;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    font-size: 16px;
+}
+.myAccount {
+    text-decoration: none;
+    font-family: 'Economica';
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.watchList{
+    text-decoration: none;
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+
+}
+.newReleased{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.topPicks{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.featured{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.genre{
+    color: #F7BC45;
+    font-family: 'Economica';
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 6.8%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+table,
+td,
+tr,
+th{
+    border: 1px dotted black;
+    padding: 5px;
+    border-collapse: collapse;
+}

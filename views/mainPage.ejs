@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movie World EJS</title>
+        <link rel="stylesheet" href="mainPageStyle.css">
+    </head>
+
+
+    <body>
+        <div class = "header">
+            <img src = "mwLogo.png" alt="Movie World Logo";>
+            <link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+        </div>
+
+        <div class = "logIn"> 
+            <h1>Existing User? Log In!</h1>
+            <form action="TBD">
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="user"><br><br>
+                <label for="pass">Password:</label>
+                <input type="text" id="pass" name="pass"><br><br>
+                <input type="submit" value="Log In">
+            </form>
+        </div>
+        <div class = "signUp"> 
+            <h1>New User? Sign Up!</h1>
+            <form action="/action_page.php">
+                <label for="user">Username:</label>
+                <input type="text" id="signUser" name="user"><br><br>
+                <label for="passSign">Password:</label>
+                <input type="text" id="signPass" name="pass"><br><br>
+                <a href= <%="/homePage/"%>>SignUp    </a>
+              </form>
+        </div>
+        <div class = "byPass">
+            <a href= "/homePage">BYPASS LOGIN</a>
+        </div>
+    
+    </body>
+</html>

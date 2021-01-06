@@ -1,0 +1,15 @@
+[{
+    "initalUser":{
+        "username":"username",
+        "password":"password",
+        "status":"offline",
+        "following":[],
+        "followers":[],
+        "reviews":[],
+        "movieList":[],
+        "watchlist":[]
+    }
+
+
+}
+]
